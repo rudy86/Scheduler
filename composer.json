@@ -6,7 +6,8 @@
   "prefer-stable": true,
   "require": {
     "php": ">=7.4",
-    "symfony/http-kernel": "^5.4"
+    "symfony/http-kernel": "^5.4",
+    "symfony/framework-bundle": "^5.4"
   },
   "config": {
   },
