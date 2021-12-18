@@ -1,6 +1,6 @@
 <?php
 
-namespace App\CodeOn\SchedulerBundle;
+namespace App\Rudy86\SchedulerBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
