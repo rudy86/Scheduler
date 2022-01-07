@@ -14,12 +14,12 @@ services:
   # makes classes in src/ available to be used as services
   # this creates a service per class whose id is the fully-qualified class name
   Rudy86\SchedulerBundle\:
-    resource: '../src/'
+    resource: '../../'
     exclude:
-      - '../src/DependencyInjection/'
-      - '../src/Entity/'
-      - '../src/Kernel.php'
-      - '../src/Tests/'
+      - '../../DependencyInjection/'
+      - '../../Entity/'
+      - '../../Kernel.php'
+      - '../../Tests/'
 
   Rudy86\SchedulerBundle\Controller\:
     resource: '../src/Controller/'
