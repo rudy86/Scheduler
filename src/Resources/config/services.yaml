@@ -1,6 +1,7 @@
 services:
   Rudy86SchedulerBundleCronController:
     class: CronController
+    public: true
     arguments:
     tags: ['controller.service_arguments']
     calls:
