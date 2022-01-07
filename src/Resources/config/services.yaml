@@ -1,0 +1,7 @@
+services:
+  VendorFooBundleControllerEntryCategoryController:
+    class: CronController
+    arguments:
+    tags: ['controller.service_arguments']
+    calls:
+      - ['setContainer', ['@service_container']]

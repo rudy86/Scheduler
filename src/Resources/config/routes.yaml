@@ -1,5 +1,5 @@
 # config/routes.yaml
 
 app_annotations:
-  resource: '../../../Controller/'
+  resource: '../../Controller/'
   type:     annotation
