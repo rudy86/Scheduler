@@ -22,7 +22,7 @@ services:
       - '../../Tests/'
 
   Rudy86\SchedulerBundle\Controller\:
-    resource: '../src/Controller/'
+    resource: '../../Controller/'
     tags: ['controller.service_arguments']
 
   # add more service definitions when explicit configuration is needed
