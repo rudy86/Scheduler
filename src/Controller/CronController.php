@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace App\Rudy86\SchedulerBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
