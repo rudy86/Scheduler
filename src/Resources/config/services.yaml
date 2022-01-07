@@ -1,5 +1,5 @@
 services:
-  VendorFooBundleControllerEntryCategoryController:
+  Rudy86SchedulerBundleCronController:
     class: CronController
     arguments:
     tags: ['controller.service_arguments']
